@@ -53,6 +53,9 @@
     <!-- General > Text -->
     <option name="WHITESPACES"             value="#c3c3c3" />
 
+    <!-- Language Defaults > Comments -->
+    <option name="DOC_COMMENT_LINK" value="#589df6" />
+
     <!-- VCS -->
     <option name="ADDED_LINES_COLOR"                value="#c9dec1" />
     <option name="DELETED_LINES_COLOR"              value="#9f9f9f" />
