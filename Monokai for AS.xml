@@ -25,14 +25,16 @@
 
   <!-- Color Scheme Font -->
   <option name="LINE_SPACING" value="1.25" />
-  <!-- Font Style for macOS -->
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-  </font>
-  <!-- Font Style for compatibility of Windows -->
+  <!-- Font Style for Windows.
+       This will be unavailable on macOS and instead the Jetbrains Mono will be used. -->
   <font>
     <option name="EDITOR_FONT_NAME" value="Consolas" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </font>
+  <!-- Preferred font style for macOS if Jetbrains Mono is not present on an older version (
+       Pre 4.2.0). -->
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
     <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
 
