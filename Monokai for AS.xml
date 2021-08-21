@@ -552,6 +552,14 @@
     </option>
 
 
+    <!--  Shell Script > Commands -->
+    <option name="BASH.EXTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="#ed864a" />
+      </value>
+    </option>
+
+
     <!-- C/C++ -->
     <option name="OC.STRUCT_LIKE">
       <value>
