@@ -40,19 +40,21 @@
 
   <colors>
     <!-- General > Code -->
-    <option name="LINE_NUMBERS_COLOR"      value="#808080" />
+    <option name="LINE_NUMBERS_COLOR"                value="#808080" />
     <!-- General > Editor -->
-    <option name="CARET_COLOR"             value="#ffffff" />
-    <option name="CARET_ROW_COLOR"         value="#47473d" />
-    <option name="INDENT_GUIDE"            value="#cccccc" />
-    <option name="SELECTED_INDENT_GUIDE"   value="#ffffff" />
-    <option name="RIGHT_MARGIN_COLOR"      value="#e6e6e6" />
-    <option name="GUTTER_BACKGROUND"       value="#f6f6f6" />
-    <option name="SELECTION_BACKGROUND"    value="#000000" />
-    <option name="TEARLINE_COLOR"          value="#d0d0d0" />
-    <option name="SELECTED_TEARLINE_COLOR" value="#9c9c9c" />
+    <option name="CARET_COLOR"                       value="#ffffff" />
+    <option name="CARET_ROW_COLOR"                   value="#47473d" />
+    <option name="INDENT_GUIDE"                      value="#cccccc" />
+    <option name="SELECTED_INDENT_GUIDE"             value="#ffffff" />
+    <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="#ffffff" />
+    <option name="RIGHT_MARGIN_COLOR"                value="#e6e6e6" />
+    <option name="GUTTER_BACKGROUND"                 value="#f6f6f6" />
+    <option name="EDITOR_GUTTER_BACKGROUND"          value="#f6f6f6" />
+    <option name="SELECTION_BACKGROUND"              value="#000000" />
+    <option name="TEARLINE_COLOR"                    value="#d0d0d0" />
+    <option name="SELECTED_TEARLINE_COLOR"           value="#9c9c9c" />
     <!-- General > Text -->
-    <option name="WHITESPACES"             value="#c3c3c3" />
+    <option name="WHITESPACES"                       value="#c3c3c3" />
 
     <!-- Language Defaults > Comments -->
     <option name="DOC_COMMENT_LINK" value="#589df6" />
