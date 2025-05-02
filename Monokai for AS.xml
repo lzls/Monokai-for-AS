@@ -48,7 +48,6 @@
     <option name="SELECTED_INDENT_GUIDE"   value="#ffffff" />
     <option name="RIGHT_MARGIN_COLOR"      value="#e6e6e6" />
     <option name="GUTTER_BACKGROUND"       value="#f6f6f6" />
-    <option name="NOTIFICATION_BACKGROUND" value="#ffffcc" />
     <option name="SELECTION_BACKGROUND"    value="#000000" />
     <option name="TEARLINE_COLOR"          value="#d0d0d0" />
     <option name="SELECTED_TEARLINE_COLOR" value="#9c9c9c" />
@@ -86,7 +85,7 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND"         value="#780c78" />
+        <option name="BACKGROUND"         value="#802680" />
         <option name="ERROR_STRIPE_COLOR" value="#f0adf0" />
       </value>
     </option>
@@ -279,15 +278,15 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="#6da659" />
+        <option name="FOREGROUND" value="#77b767" />
         <option name="FONT_TYPE"  value="italic" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND"   value="#ff4030" />
+        <option name="FOREGROUND"   value="#77b767" />
         <option name="FONT_TYPE"    value="bold_italic" />
-        <option name="EFFECT_COLOR" value="#6da659" />
+        <option name="EFFECT_COLOR" value="#77b767" />
         <option name="EFFECT_TYPE"  value="1" />
       </value>
     </option>
@@ -298,7 +297,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="#d9d9d9" />
+        <option name="FOREGROUND" value="#89d576" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -746,6 +745,20 @@
       </value>
     </option>
 
+    <!-- Kotlin's Label -->
+    <option name="KOTLIN_LABEL">
+      <value>
+        <option name="FOREGROUND" value="#00aaff" />
+      </value>
+    </option>
+
+    <!-- Kotlin's Named Argument -->
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="#00aaff" />
+      </value>
+    </option>
+
     <!-- Kotlin's Parameters -->
     <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER">
       <value>
@@ -875,6 +888,21 @@
     <option name="HTML_TAG_NAME"         baseAttributes="DEFAULT_KEYWORD" />
 
 
+    <!-- TOML -->
+    <option name="org.toml.BOOLEAN">
+      <value>
+        <option name="FOREGROUND" value="#ff4088" />
+        <option name="FONT_TYPE"  value="bold" />
+      </value>
+    </option>
+    <option name="org.toml.KEY">
+      <value>
+        <option name="FOREGROUND" value="#c6e5fa" />
+        <option name="FONT_TYPE"  value="bold" />
+      </value>
+    </option>
+
+
     <!-- XML -->
     <option name="XML_PROLOGUE">
       <value>
@@ -910,6 +938,15 @@
     <option name="YAML_SCALAR_VALUE">
       <value>
         <option name="FOREGROUND" value="#e8e8e8" />
+      </value>
+    </option>
+
+
+    <!-- EditorConfig -->
+    <option name="EDITORCONFIG_PATTERN">
+      <value>
+        <option name="FOREGROUND" value="#c3c3c3" />
+        <option name="FONT_TYPE"  value="bold" />
       </value>
     </option>
   </attributes>
